@@ -114,7 +114,7 @@ int main()
 \n1. Visit a new page\
 \n2. Back\
 \n3. Forward\
-\n4. Quit");
+\n4. Quit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
         switch (choice)
