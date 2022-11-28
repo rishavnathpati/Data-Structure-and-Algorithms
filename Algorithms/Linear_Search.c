@@ -12,11 +12,12 @@ int linear_search(int arr[], int n, int key)
     {
         if (arr[i] == key)
         {
+            printf("Number of comparisons: %d\n", comparisons);
             return i;
         }
         comparisons++;
     }
-    printf("Number of comparisons: %d", comparisons);
+    printf("Number of comparisons: %d\n", comparisons);
     return -1;
 }
 
