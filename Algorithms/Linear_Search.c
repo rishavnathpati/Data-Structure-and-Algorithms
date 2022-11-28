@@ -7,13 +7,16 @@
 // Linear search
 int linear_search(int arr[], int n, int key)
 {
+    int comparisons = 0;
     for (int i = 0; i < n; i++)
     {
         if (arr[i] == key)
         {
             return i;
         }
+        comparisons++;
     }
+    printf("Number of comparisons: %d", comparisons);
     return -1;
 }
 
