@@ -87,11 +87,11 @@ int main()
 
     int n;
 
-    printf("Enter the first name: ");
+    printf("\nEnter the first name: ");
     char name1[100];
     scanf("%s", name1);
 
-    printf("Enter the second name: ");
+    printf("\nEnter the second name: ");
     char name2[100];
     scanf("%s", name2);
 

@@ -71,14 +71,19 @@ void display(struct Employee arr[], int n)
 int main()
 {
     struct Employee arr[] = {{4, "D", 4000}, {2, "B", 2000}, {1, "A", 1000}, {8, "H", 8000}, {14, "N", 14000}, {6, "F", 6000}, {3, "C", 3000}, {5, "E", 5000}, {7, "G", 7000}, {15, "O", 15000}, {16, "P", 16000}, {17, "Q", 17000}, {9, "I", 9000}, {10, "J", 10000}, {11, "K", 11000}, {12, "L", 12000}, {13, "M", 13000}, {18, "R", 18000}, {19, "S", 19000}, {20, "T", 20000}};
+    
+    //Sort and display the array
     bubble_sort(arr, 20);
     printf("Sorted array: \n");
     display(arr, 20);
+    
+    //Search for an element in the array
     int n = sizeof(arr) / sizeof(arr[0]);
     printf("\nEnter the key to search: ");
     int key;
     scanf("%d", &key);
     int index = binary_search(arr, n, key);
+    
     if (index == -1)
     {
         printf("\nElement not found");
