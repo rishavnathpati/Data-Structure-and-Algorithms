@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "__hash_table": "c",
+        "__locale": "c",
+        "__string": "c",
+        "compare": "c",
+        "ios": "c",
+        "string": "c",
+        "string_view": "c",
+        "tuple": "c",
+        "typeinfo": "c",
+        "vector": "c",
+        "version": "c",
+        "locale": "c"
+    }
+}
