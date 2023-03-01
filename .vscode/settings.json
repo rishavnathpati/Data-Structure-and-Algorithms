@@ -11,6 +11,12 @@
         "typeinfo": "c",
         "vector": "c",
         "version": "c",
-        "locale": "c"
+        "locale": "c",
+        "__availability": "c",
+        "atomic": "c",
+        "cstdlib": "c",
+        "ctime": "c",
+        "cmath": "c",
+        "new": "c"
     }
 }

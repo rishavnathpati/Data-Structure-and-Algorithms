@@ -74,6 +74,8 @@ int main()
 
 void insert_beg(int value)
 {
+    //clear screen
+    system('cls');
     struct node *new_node;
     new_node = (struct node *)malloc(sizeof(struct node));
     new_node->data = value;
